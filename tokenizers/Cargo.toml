@@ -19,7 +19,7 @@ exclude = [ "rust-toolchain", "target/*", "Cargo.lock", "benches/*.txt", "benche
 name = "tokenizers"
 path = "src/lib.rs"
 bench = false
-
+crate-type = ["rlib", "cdylib"]
 [[bench]]
 name = "bpe_benchmark"
 harness = false

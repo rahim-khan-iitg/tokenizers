@@ -154,3 +154,7 @@ pub use utils::parallelism;
 // Re-export for from_pretrained
 #[cfg(feature = "http")]
 pub use utils::from_pretrained::FromPretrainedParameters;
+
+
+// C FFI bindings
+pub mod c_ffi;
